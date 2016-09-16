@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append('/var/src/lib')
+sys.path.append(os.path.abspath('../lib'))
 from Divisors import Divisors
 import pytest
 
