@@ -2,11 +2,7 @@ box: python:3.4.5-alpine
 build:
   steps:
     - pip-install
-
-pytest:
-  steps:
-    - pip-install
     - script:
         name: pytest
         code: |
-          pytest
+          pytest src/test
