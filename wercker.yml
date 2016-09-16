@@ -1,4 +1,4 @@
-box: python:3.4.5-alpine
+box: python:alpine
 build:
   steps:
     - pip-install
