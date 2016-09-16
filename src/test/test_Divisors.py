@@ -1,6 +1,6 @@
 import sys, os
-sys.path.append(os.path.abspath('../'))
-from lib.Divisors import Divisors
+sys.path.append(os.path.abspath('./src/lib/'))
+from Divisors import Divisors
 import pytest
 
 def test_Divisors():
