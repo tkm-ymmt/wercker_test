@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append('/Users/takumi/Desktop/pydev/bamboo_test/lib')
+sys.path.append('/var/src/lib')
 from Divisors import Divisors
 import pytest
 
