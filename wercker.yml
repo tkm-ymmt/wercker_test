@@ -1,10 +1,9 @@
 box: python:alpine
 build:
   steps:
-    - pip-install
-
-pytest:
-  steps:
+    - virtualenv:
+        name: setup virtual environment
+        install_wheel: false # Enable wheel to speed up builds (experimental)
     - pip-install
     - script:
         name: pytest
