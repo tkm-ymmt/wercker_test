@@ -2,6 +2,10 @@ box: python:alpine
 build:
   steps:
     - pip-install
+
+pytest:
+  steps:
+    - pip-install
     - script:
         name: pytest
         code: |
