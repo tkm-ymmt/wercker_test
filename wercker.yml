@@ -1,4 +1,4 @@
-box: python:alpine
+box: python:slim
 build:
   steps:
     - virtualenv:
